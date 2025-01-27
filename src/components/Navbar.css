@@ -1,0 +1,78 @@
+/* Navbar Container and Logo */
+.scroll-navbar {
+  background-color: #1A202C;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-top: 4px solid #00bfff; /* Added top border */
+  border-bottom: 4px solid #00bfff; /* Added top border */
+
+
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.navbar-logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  color: #63B3ED;
+  margin: 0;
+}
+
+/* Horizontal Navigation Menu */
+.scroll-navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+.scroll-navbar li {
+  display: inline-block;
+}
+
+.scroll-navbar a {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s, transform 0.3s;
+}
+
+/* Hover effect with scale animation */
+.scroll-navbar a:hover {
+  color: #63B3ED;
+  transform: scale(1.1);
+}
+
+/* Active link styling */
+.scroll-navbar .active a {
+  color: #63B3ED;
+  font-weight: bold;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .navbar-logo {
+      font-size: 1.2rem;
+  }
+
+  .scroll-navbar ul {
+      gap: 1rem;
+  }
+
+  .scroll-navbar a {
+      font-size: 1rem;
+      padding: 0.5rem 0.75rem;
+  }
+}

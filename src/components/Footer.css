@@ -1,0 +1,101 @@
+.footer {
+    background-color: #1A202C;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-top: 2px solid #00bfff;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+  
+  .footer h2 {
+    font-size: 2.5rem;
+    color: #00bfff;
+    margin-bottom: 20px;
+  }
+  
+  .footer-description {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 30px;
+  }
+  
+  .footer-links {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links a {
+    color: #00bfff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #008CBA;
+  }
+  
+  .footer-separator {
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 10px;
+  }
+  
+  .social-icons {
+    margin-bottom: 30px;
+  }
+  
+  .social-icons a {
+    margin: 0 15px;
+    font-size: 1.5rem;
+    color: #00bfff;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #008CBA;
+    transform: scale(1.2);
+  }
+  
+  .hire-btn {
+    background-color: #00bfff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hire-btn:hover {
+    background-color: #008CBA;
+    box-shadow: 0 8px 20px rgba(0, 191, 255, 0.3);
+  }
+  
+  small {
+    display: block;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .social-icons a {
+      font-size: 1.3rem;
+      margin: 0 10px;
+    }
+  
+    .footer h2 {
+      font-size: 2rem;
+    }
+  
+    .footer-description {
+      font-size: 1rem;
+    }
+  }
+  

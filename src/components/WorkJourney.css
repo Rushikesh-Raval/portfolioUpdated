@@ -1,0 +1,109 @@
+.work-journey {
+  cursor: pointer;
+  padding: 80px 20px;
+  background-color: #1A202C; /* Dark background for contrast */
+  color: #fff;
+  text-align: left; /* Align all text to the left */
+  position: relative;
+  overflow: hidden; /* Prevent overflow */
+  border-top: 4px solid #00bfff; /* Added top border */
+}
+
+.work-journey h2 {
+  font-size: 3rem;
+  margin: 0 0 30px; /* Adjusted margin for top and bottom */
+  color: #00bfff; /* Bright color for header */
+  font-weight: bold;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin-left: auto; /* Align to the right */
+  padding: 0;
+  list-style: none;
+  border-left: 4px solid #00bfff; /* Vertical line for timeline */
+  margin-top: 20px; /* Added spacing between heading and roadmap */
+}
+
+.timeline-item {
+  position: relative;
+  margin: 40px 0; /* More space between items */
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  width: 20px; /* Slightly larger dot for emphasis */
+  height: 20px;
+  background-color: #00bfff; /* Bright color for dot */
+  border-radius: 50%;
+  position: absolute;
+  left: -12px; /* Adjust to align with the line */
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.7); /* Glow effect */
+}
+
+.timeline-content {
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  margin-left: 40px; /* Space from the dot */
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Animation effect */
+}
+
+.timeline-content:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  background-color: rgba(255, 255, 255, 0.2); /* Change background color on hover */
+}
+
+.timeline-content h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: left; /* Align text to the left */
+  color: #00bfff; /* Match with header color */
+}
+
+.timeline-content p {
+  margin: 5px 0;
+  color: #fff; /* White text for visibility */
+  text-align: left; /* Align text to the left */
+}
+
+.year {
+  font-weight: bold; /* Emphasize year */
+}
+
+.role {
+  font-style: italic; /* Distinguish role */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .work-journey {
+    padding: 40px 10px;
+  }
+
+  .timeline {
+    margin-left: 0; /* Center the timeline on smaller screens */
+    border-left: none; /* Remove left border for smaller screens */
+    border-top: 4px solid #00bfff; /* Keep top border */
+    padding-left: 20px; /* Space for the timeline content */
+  }
+
+  .timeline-item {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .dot {
+    left: 0; /* Center the dot */
+    margin-bottom: 10px; /* Space below the dot */
+  }
+
+  .timeline-content {
+    margin-left: 0; /* No margin on smaller screens */
+    width: 100%; /* Full width on smaller screens */
+  }
+}

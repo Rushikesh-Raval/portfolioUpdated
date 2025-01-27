@@ -1,0 +1,73 @@
+.skills {
+  padding: 60px 20px;
+  background-color: #1A202C; /* Dark background */
+  color: white; /* Text color */
+  text-align: center;
+  border-top: 4px solid #00bfff; /* Added top border */
+}
+
+.skills h2 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  position: relative;
+  color: #00bfff; /* Highlight color for the heading */
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center; /* Center the skill cards */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  gap: 20px; /* Space between skill cards */
+  max-width: 1200px; /* Limit the width for better alignment */
+  margin: 0 auto; /* Center the container */
+}
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation on hover */
+  position: relative;
+  width: 200px; /* Fixed width for skill cards */
+  overflow: hidden; /* Ensure no overflow */
+  text-align: left; /* Align text to the left */
+}
+
+.skill-card:hover {
+  transform: translateY(-5px); /* Slightly lift the card on hover */
+  cursor: pointer; /* Change cursor to pointer */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4); /* Deeper shadow on hover */
+}
+
+.skill-icon {
+  margin-bottom: 10px;
+  color: #00bfff; /* Icon color */
+  font-size: 2rem; /* Increased icon size */
+}
+
+.skill-name {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: bold; /* Make skill name bold */
+}
+
+.skill-bar {
+  background-color: rgba(255, 255, 255, 0.3); /* Light background for the skill bar */
+  border-radius: 10px;
+  height: 8px; /* Height of the skill bar */
+  overflow: hidden; /* Ensure no overflow */
+}
+
+.skill-level {
+  background-color: #00bfff; /* Color of the skill level bar */
+  height: 100%; /* Fill the height of the parent */
+  border-radius: 10px; /* Rounded edges for the progress */
+  transition: width 0.5s ease; /* Smooth transition */
+}
+
+.skill-percentage {
+  margin-top: 10px; /* Increased margin for spacing */
+  font-weight: bold;
+  font-size: 1rem; /* Adjusted size for percentage */
+}

@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+  }
+  
+  .navbar {
+    background-color: #1A202C;
+    padding: 1rem;
+    color: white;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .hero img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #1A202C;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .projects, .skills, .contact {
+    padding: 50px 20px;
+  }
+  
+  .project {
+    margin: 20px 0;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
