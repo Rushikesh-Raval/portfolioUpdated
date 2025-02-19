@@ -5,10 +5,10 @@ const WorkJourney = () => {
   const experiences = [
     { year: '2015', title: 'Internship at WingFan', duration: '3 months' },
     { year: '2015', title: 'Starnine Elevators Pvt Ltd', duration: '6 months' },
-    { year: '2016 - 2019', title: 'Suraj Enterprises', role: 'Site Supervisor' },
-    { year: '2020 - 2021', title: 'Suraj Enterprises ', role: 'Assistant Manager - Sites at Hiranandani, Thane' },
+    { year: '2016 - 2019', title: 'Suraj Enterprises', role: 'Site Supervisor - Sites at Hiranandani, Thane' },
+    { year: '2020 - 2021', title: 'Suraj Enterprises ', role: 'Assistant Site Manager - Sites at Hiranandani, Thane' },
     { year: '2021 (Feb - June)', title: 'Diploma in UI/UX Development' },
-    { year: '2021 - Present', title: 'Freelancing Outsourced Projects' },
+    { year: '2021 - Present', title: 'Site Incharge For My Family Owned Business' },
   ];
 
   return (

@@ -26,7 +26,7 @@ const Contact = () => {
         <div className="contact-info">
           <h3>I'm Rushikesh Raval</h3>
           <p>
-            I am an experienced MERN stack developer, and I am eager to collaborate on exciting projects. 
+            I am an expert frontend developer, and I am eager to collaborate on exciting projects. 
             Looking for an opportunity to join your team and contribute to impactful work!
           </p>
         </div>

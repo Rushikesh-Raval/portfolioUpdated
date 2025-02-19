@@ -108,7 +108,7 @@ const Projects = () => {
         {/* Project 6 */}
         <div className="project-card">
           <a
-            href="http://portfolios.ecti.co.in/rushikeshr/projects/game/index.html"
+            href="https://construction-portfolio-website.onrender.com"
             target="blank"
           >
             <img src={myImage} alt="construction project" />

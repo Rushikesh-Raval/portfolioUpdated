@@ -4,12 +4,10 @@ import { FaJs, FaReact, FaNodeJs, FaDatabase, FaCss3, FaHtml5 } from 'react-icon
 
 const Skills = () => {
   const skills = [
-    { name: 'JavaScript', level: 90, icon: <FaJs /> },
-    { name: 'React', level: 85, icon: <FaReact /> },
-    { name: 'Node.js', level: 80, icon: <FaNodeJs /> },
-    { name: 'MongoDB', level: 75, icon: <FaDatabase /> },
-    { name: 'CSS', level: 70, icon: <FaCss3 /> },
-    { name: 'HTML', level: 95, icon: <FaHtml5 /> },
+    { name: 'HTML', level: 90, icon: <FaHtml5/> },
+    { name: 'CSS', level: 85, icon: <FaCss3 /> },
+    { name: 'JS', level: 80, icon: <FaJs /> },
+    { name: 'React', level: 75, icon: <FaReact /> },
   ];
 
   return (

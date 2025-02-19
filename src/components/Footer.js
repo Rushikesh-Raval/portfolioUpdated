@@ -9,10 +9,10 @@ const Footer = () => {
       <div className="footer-content">
         <h2>Let's Connect</h2>
         <p className="footer-description">
-          I'm Rushikesh Raval, an experienced MERN stack developer, open to new opportunities and collaborations.
+          I'm Rushikesh Raval, an expert frontend developer, open to new opportunities and collaborations.
         </p>
         <div className="footer-links">
-          <a href="mailto:rushikesh@example.com">rushikeshraval25@gmail.com</a>
+          <a href="mailto:rushikesh@example.com">rushikeshprof25@gmail.com</a>
           <span className="footer-separator">|</span>
           <span>+91 9326580094</span>
         </div>
@@ -23,9 +23,6 @@ const Footer = () => {
           </a>
           <a href="https://github.com" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} />
-          </a>
-          <a href="https://x.com/RushikeshRaval9" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faTwitter} />
           </a>
         </div>
 
