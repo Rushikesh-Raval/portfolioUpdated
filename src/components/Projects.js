@@ -1,5 +1,6 @@
 import React from "react";
 import "./Projects.css";
+import myImage from "../images/construction-img.png";
 
 const Projects = () => {
   return (
@@ -100,6 +101,23 @@ const Projects = () => {
               <p>
                 A Football team portfolio website that allows to portarate the
                 achievements of a football team
+              </p>
+            </div>
+          </a>
+        </div>
+        {/* Project 6 */}
+        <div className="project-card">
+          <a
+            href="http://portfolios.ecti.co.in/rushikeshr/projects/game/index.html"
+            target="blank"
+          >
+            <img src={myImage} alt="construction project" />
+
+            <div className="project-info">
+              <h3>Construction Companies Portfolio Website</h3>
+              <p>
+                A Construction cpmpannies demo site with which a company can
+                porterate ite offering to he customers.
               </p>
             </div>
           </a>

@@ -104,14 +104,14 @@ const Hero = () => {
           />
         </div> */}
         <h1>Rushikesh Mahadev Raval</h1>
-        <p>Innovative Web Developer | MERN Stack Specialist</p>
+        <p>Innovative Web Developer | Best In Building Anytype Of Websites And Web Applications</p>
         <div className="skills-container">
           <ul className="skills-list">
-            <li>React.js</li>
-            <li>Node.js</li>
-            <li>MongoDB</li>
-            <li>Express.js</li>
-            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>React</li>
+            <li>Redux</li>
           </ul>
         </div>
       </div>

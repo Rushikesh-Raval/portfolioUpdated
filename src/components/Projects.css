@@ -71,9 +71,9 @@
   margin: 10px 0;
   text-align: center; /* Center text alignment */
   overflow: hidden; /* Prevents text overflow */
-  text-overflow: ellipsis; /* Adds ellipsis for overflowed text */
+  text-overflow: ellipsis; 
   display: -webkit-box;
-  -webkit-line-clamp: 3; /* Limits the number of text lines to 3 */
+  -webkit-line-clamp: 3; 
   -webkit-box-orient: vertical;
 }
 
