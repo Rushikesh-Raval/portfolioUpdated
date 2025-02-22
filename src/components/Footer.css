@@ -1,101 +1,153 @@
 .footer {
-    background-color: #1A202C;
-    color: white;
-    padding: 60px 20px;
-    text-align: center;
-    border-top: 2px solid #00bfff;
-  }
+  background-color: #1A202C;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  border-top: 2px solid #00bfff;
+  position: relative;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.footer h2 {
+  font-size: 2.5rem;
+  color: #00bfff;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 30px;
+}
+
+.footer-links {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  color: #00bfff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #008CBA;
+}
+
+.footer-separator {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0 10px;
+}
+
+.social-icons {
+  margin-bottom: 30px;
+}
+
+.social-icons a {
+  margin: 0 15px;
+  font-size: 1.5rem;
+  color: #00bfff;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #008CBA;
+  transform: scale(1.2);
+}
+
+/* Hire Me Button */
+.hire-btn {
+  display: inline-block; /* or use inline-flex */
+  flex-direction: column;
+  padding: 12px 25px; /* Keeps button padding */
+  text-decoration: none; /* Removes underline */
+  background-color: #00bfff;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  border: 2px solid white;
+  z-index: 10;
   
-  .footer-content {
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 1.5;
+}
+
+.floating-btn {
+  animation: moveRight 1s ease-in-out infinite alternate;
+} 
+small {
+  display: block; /* Moves it to a new line */
+  margin-top: 20px; /* Adds spacing */
+  font-size: 0.9rem; /* Optional: Adjust font size */
+  color: rgba(255, 255, 255, 0.7); /* Optional: Dim the color slightly */
+}
+
+ @keyframes moveRight {
+  0% {
+      transform: translateX(0);
   }
-  
-  .footer h2 {
-    font-size: 2.5rem;
-    color: #00bfff;
-    margin-bottom: 20px;
+  100% {
+      transform: translateX(30px);
   }
-  
-  .footer-description {
-    font-size: 1.2rem;
-    color: rgba(255, 255, 255, 0.8);
-    margin-bottom: 30px;
+}
+
+@media (max-width:468px){
+  .hire-btn{
+    padding: 5px 7px;
+    opacity: 2;
   }
-  
-  .footer-links {
-    font-size: 1rem;
-    margin-bottom: 20px;
-  }
-  
-  .footer-links a {
-    color: #00bfff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .footer-links a:hover {
-    color: #008CBA;
-  }
-  
-  .footer-separator {
-    color: rgba(255, 255, 255, 0.5);
-    margin: 0 10px;
-  }
-  
-  .social-icons {
-    margin-bottom: 30px;
-  }
-  
+}
+
+.hire-btn:hover {
+  background-color: #008CBA;
+  box-shadow: 0 8px 20px rgba(0, 191, 255, 0.3);
+}
+
+
+.hire-btn:hover {
+  background-color: #008CBA;
+  box-shadow: 0 8px 20px rgba(0, 191, 255, 0.3);
+}
+
+/* Floating Button - Moves to Right when Scrolling */
+.floating-btn.sticky {
+  position: fixed;
+  bottom: 20px;
+  left: auto;
+  right: 35px;
+  transform: translateX(0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .social-icons a {
-    margin: 0 15px;
-    font-size: 1.5rem;
-    color: #00bfff;
-    transition: color 0.3s ease, transform 0.3s ease;
-  }
-  
-  .social-icons a:hover {
-    color: #008CBA;
-    transform: scale(1.2);
-  }
-  
-  .hire-btn {
-    background-color: #00bfff;
-    color: white;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 8px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .hire-btn:hover {
-    background-color: #008CBA;
-    box-shadow: 0 8px 20px rgba(0, 191, 255, 0.3);
-  }
-  
-  small {
-    display: block;
-    margin-top: 40px;
-    font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.6);
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .social-icons a {
       font-size: 1.3rem;
       margin: 0 10px;
-    }
-  
-    .footer h2 {
-      font-size: 2rem;
-    }
-  
-    .footer-description {
-      font-size: 1rem;
-    }
   }
-  
+
+  .footer h2 {
+      font-size: 2rem;
+  }
+
+  .footer-description {
+      font-size: 1rem;
+  }
+}
+@media (max-width:352px){
+  .footer-links{
+
+  }
+  .footer-separator{
+    display: none;
+  }
+  .number{
+    margin-top: 1rem;
+    display: block;
+  }
+}

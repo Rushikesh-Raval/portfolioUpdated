@@ -8,7 +8,7 @@ const WorkJourney = () => {
     { year: '2016 - 2019', title: 'Suraj Enterprises', role: 'Site Supervisor - Sites at Hiranandani, Thane' },
     { year: '2020 - 2021', title: 'Suraj Enterprises ', role: 'Assistant Site Manager - Sites at Hiranandani, Thane' },
     { year: '2021 (Feb - June)', title: 'Diploma in UI/UX Development' },
-    { year: '2021 - Present', title: 'Site Incharge For My Family Owned Business' },
+    { year: '2021 - Present', title: 'As Site Incharge For My Father Owned Electrical Business' },
   ];
 
   return (

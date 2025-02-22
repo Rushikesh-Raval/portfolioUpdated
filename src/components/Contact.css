@@ -1,6 +1,6 @@
 .contact {
   background-color: #1A202C;
-  padding: 80px 20px;
+  padding: 80px 52px;
   text-align: center;
   color: #fff;
   position: relative;
@@ -92,6 +92,38 @@ button[type="submit"]:hover {
   }
 
   .contact-info, .contact-form {
-    max-width: 100%;
+    max-width: 900px;
+  }
+  .contact-form{
+    width: 294px;
+  }
+  button[type="submit"]{
+    padding: 15px 128px;
+  }
+  .contact{
+    padding-left:59px ;
+    padding-right:59px ;
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width:468px){
+  .contact h2{
+    font-size: 35px;
+  }
+  .contact-info h3{
+    font-size: 27px;
+  }
+  .contact-info p{
+    font-size: 18px;
+    text-align: center;
+  }
+  .contact-form{
+    margin: auto;
+    width: 85%;
+  }
+}
+@media( max-width: 368px){
+  button[type="submit"]{
+    padding: 15px 116px;
   }
 }

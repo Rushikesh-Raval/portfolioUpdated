@@ -8,8 +8,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-top: 4px solid #00bfff; /* Added top border */
   border-bottom: 4px solid #00bfff; /* Added top border */
-
-
 }
 
 .navbar-container {
@@ -75,4 +73,19 @@
       font-size: 1rem;
       padding: 0.5rem 0.75rem;
   }
+}
+@media(max-width:468px){
+  .scroll-navbar ul{
+    gap: 8px;
+  }
+  .scroll-navbar a{
+    font-size: 10px;
+    padding: 7px 3px;
+  }
+  .navbar-container{
+    padding: 6px;
+  }
+}
+@media (max-width:350px){
+  /* padding: 1px; */
 }

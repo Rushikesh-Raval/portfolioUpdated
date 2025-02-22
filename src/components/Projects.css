@@ -88,3 +88,11 @@
 .project-info p {
   font-size: 0.9rem; /* Adjust font size if needed */
 }
+@media (max-width:468px){
+  .projects h2{
+    font-size: 35px;
+  }
+  .projects{
+    padding-top: 81px;
+  }
+}

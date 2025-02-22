@@ -24,7 +24,8 @@
   text-align: center;
   z-index: 1;
   color: white;
-  max-width: 700px;
+  /* max-width: 700px; */
+  width: 80%;
   padding: 20px;
   background-color: rgba(28, 32, 44, 0.9); /* Add subtle background for readability */
   border-radius: 10px;
@@ -40,6 +41,27 @@
   width: 150px;
   height: 150px;
   border: 3px solid white;
+}
+
+@media(max-width:468px){
+  .hero-content{
+    width: 60%;
+  }
+  .hero-content h1{
+    font-size: 18px;
+  }
+  .hero-content p{
+    font-size: 10px;
+    margin: 0px 10px;
+  }
+}
+@media (max-width: 352px){
+  .hero-content{
+    width: 80%;
+  }
+  .hero{
+    height: 85vh;
+  }
 }
 
 /* Skills section */

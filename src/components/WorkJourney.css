@@ -1,7 +1,7 @@
 .work-journey {
   cursor: pointer;
   padding: 80px 20px;
-  background-color: #1A202C; /* Dark background for contrast */
+  background-color: #1a202c; /* Dark background for contrast */
   color: #fff;
   text-align: left; /* Align all text to the left */
   position: relative;
@@ -55,7 +55,12 @@
 
 .timeline-content:hover {
   transform: translateY(-5px); /* Lift effect on hover */
-  background-color: rgba(255, 255, 255, 0.2); /* Change background color on hover */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* Change background color on hover */
 }
 
 .timeline-content h3 {
@@ -86,10 +91,12 @@
   }
 
   .timeline {
-    margin-left: 0; /* Center the timeline on smaller screens */
+    margin: 0px auto; /* Center the timeline on smaller screens */
     border-left: none; /* Remove left border for smaller screens */
     border-top: 4px solid #00bfff; /* Keep top border */
-    padding-left: 20px; /* Space for the timeline content */
+    padding-left: 51px; /* Space for the timeline content */
+    overflow: hidden;
+    width: 80%;
   }
 
   .timeline-item {
@@ -98,12 +105,24 @@
   }
 
   .dot {
-    left: 0; /* Center the dot */
+    left: -26px; /* Center the dot */
+    top: 2px;
     margin-bottom: 10px; /* Space below the dot */
   }
 
   .timeline-content {
     margin-left: 0; /* No margin on smaller screens */
-    width: 100%; /* Full width on smaller screens */
+    width: 100 vw; /* Full width on smaller screens */
+  }
+}
+@media (max-width:468px){
+  .work-journey h2{
+    font-size: 35px;
+  }
+  .timeline{
+    padding-top: 1rem;
+  }
+  .work-journey{
+    padding-top: 6rem;
   }
 }

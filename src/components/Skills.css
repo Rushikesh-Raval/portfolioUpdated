@@ -71,3 +71,17 @@
   font-weight: bold;
   font-size: 1rem; /* Adjusted size for percentage */
 }
+@media (max-width: 468px){
+  .skills h2{
+    font-size: 35px;
+  }
+  .skills-list li{
+    padding: 6px 11px;
+  }
+  .skill-name{
+    font-size: 16px;
+  }
+  /* .skill-card{
+    display: flex;
+  } */
+}
